@@ -29,6 +29,8 @@
               <option disabled selected>Select Exercise Type</option>
               <option value="resistance">Resistance</option>
               <option value="cardio">Cardio</option>
+              <option value="stretch">Stretch</option>
+              <option value="classes">Classes</option>
             </select>
           </div>
           <div class="cardio-form d-none">
@@ -67,6 +69,27 @@
               <input type="number" name="resistance-duration" id="resistance-duration" placeholder="10" />
             </div>
           </div>
+          <div class="stretch-form d-none">
+            <div class="exercise">
+              <label for="stretch-name">Strecth Name:</label>
+              <input type="text" name="stretch-name" id="stretch-name" placeholder="Tree Pose" />
+            </div>
+            <div class="stretch-duration">
+              <label for="stretch-duration">Duration (minutes):</label>
+              <input type="number" name="stretch-duration" id="stretch-duration" placeholder="10" />
+            </div>
+          </div>
+          <div class="classes-form d-none">
+            <div class="exercise">
+              <label for="name">Extra-Curricular Class Name:</label>
+              <input type="text" name="classes-name" id="classes-name" placeholder="Dance Class" />
+            </div>
+            <div class="classes-duration">
+              <label for="classes-duration">Duration (minutes):</label>
+              <input type="number" name="classes-duration" id="classes-duration" placeholder="10" />
+            </div>
+          </div>
+
           <div class="buttons">
             <button disabled class="huge ui blue button complete">
               Complete
